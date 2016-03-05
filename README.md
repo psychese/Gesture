@@ -1,0 +1,2 @@
+# Gesture
+xamarin.android下的手势密码，之前一个android项目中用到现在移植到xamarin.android下，具体用法见test项目
