@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chi="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#397984">
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:text="手势密码demo"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp" />
+  <com.chiang.GestureLock.GestureLockThumbnail
+      android:id="@+id/id_gestureLockThumbnail"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_gravity="center_horizontal"
+      chi:count="3" />
+  <TextView
+      android:id="@+id/txtTitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="请录入手势密码"
+      android:gravity="center"
+      android:textColor="@color/bgcolor"
+      android:textSize="18dp"
+      android:layout_margin="4dp" />
+  <com.chiang.GestureLock.GestureLockViewGroup
+      android:id="@+id/id_gestureLockViewGroup"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      chi:count="3"
+      chi:color_no_finger_inner_circle="#397984"
+      chi:color_no_finger_outer_circle="#E7EFEF"
+      chi:color_finger_on="#E7EFEF" />
+</LinearLayout>
