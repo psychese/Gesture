@@ -23,9 +23,7 @@ namespace com.chiang.GestureLock {
  * 
  * 关于GestureLockView的边长（n*n）： n * mGestureLockViewWidth + ( n + 1 ) *
  * mMarginBetweenLockView = mWidth ; 得：mGestureLockViewWidth = 4 * mWidth / ( 5
- * * mCount + 1 ) 注：mMarginBetweenLockView = mGestureLockViewWidth * 0.25 ;
- * 
- * @author zhy
+ * * mCount + 1 ) 注：mMarginBetweenLockView = mGestureLockViewWidth * 0.25 ; * 
  * 
  */
     public class GestureLockViewGroup : RelativeLayout {
