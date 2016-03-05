@@ -76,7 +76,6 @@ namespace com.chiang.GestureLock {
 
             var sharps = mCount * mCount;
 
-            // 圆形摆放结构为 [空圆空圆空圆空圆空圆空]
             // 圆形的宽度
             var mGestureLockViewWidth = mWidth / (mCount + 2.0f); //(4 * mWidth * 1.0f / (5 * mCount + 1.0f));
             // 每个圆形的间距
